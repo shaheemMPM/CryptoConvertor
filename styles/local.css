@@ -1,0 +1,32 @@
+.eql
+{
+  width: 60px;
+  display: block;
+  margin: 0 auto;
+}
+
+.coin
+{
+  border: 0.0005px solid white;
+  font-size: 30px;
+}
+
+.coin-sect1
+{
+  border: 1.5px #00d8b3 solid;
+  border-radius: 4px;
+}
+
+.coin-sect2
+{
+  border: 1.5px #30755d solid;
+  border-radius: 4px;
+}
+
+.tbl
+{
+  width: 80%;
+  margin: 100px auto;
+  display: block;
+  font-size: 30px;
+}
