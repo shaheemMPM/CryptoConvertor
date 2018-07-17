@@ -8,7 +8,11 @@ $(document).ready(function() {
     success : function(result) {
       btc = result.INR;
       $('#inr-ip').val(btc);
-    }
+    },
+    error: function(xhr, status, error) {
+      var err = eval("(" + xhr.responseText + ")");
+      $('#error-note').val(er.Message);
+    },
   });
 
 
