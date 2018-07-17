@@ -1,3 +1,8 @@
+.top-sect
+{
+  width: 100%;
+}
+
 .eql
 {
   width: 60px;
@@ -9,6 +14,7 @@
 {
   border: 0.0005px solid white;
   font-size: 30px;
+  max-width: 80%;
 }
 
 .coin-sect1
@@ -41,6 +47,11 @@
   margin-top: 50px;
   width: 100%;
   text-align: center;
+}
+
+.same-line
+{
+  display: inline-block;
 }
 
 /* .loader
